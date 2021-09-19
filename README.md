@@ -28,5 +28,35 @@ I was hired by one of the cities school board members, Maria. Our purpose was to
 ![Top_5_schools](https://user-images.githubusercontent.com/69607218/133910033-47da45fc-83ec-4d39-bdb1-97d210584df6.png)
 
 #### Math & Reading by Grade
+  - The math and reading scores by grade, show you each grade level's average math and reading scores for all 15 schools in the district. By replacing the 9th graders scores with "NaN" at Thomas High School, there is nothing to compare those 461 9th graders to. You can easily compare and evaluate all of the other grades and schools to each other. However, looking at the datasets below, you can make a prediction that the average grade for the 9th graders at Thomas High for math would likely be in the high 70's to low/mid 80's range. While the average reading score is likely to be in the mid 80's.
 
+##### Math Scores By Grade
+![Math_scores_by_grade](https://user-images.githubusercontent.com/69607218/133935464-201e3189-b4ce-4463-a528-78e51e78901f.png)
+##### Reading Scores By Grade 
+![Reading_scores_by_grade](https://user-images.githubusercontent.com/69607218/133935484-d83619cf-9e0b-43da-81ff-9a6cd7a9a51c.png)
+
+#### Scores By School Spending
+  - When evaluating the data regarding the school spending per student. We can easily compare the students average grades and their passing percentages to the amount of money the school is spending on each child. As we analyze this data we can easily see that the schools with the worst academic track record, have the highest spending per student. 
+
+![Scores_by_school_spending](https://user-images.githubusercontent.com/69607218/133935835-7bb6b49f-238e-45cf-b5a8-3e85e2590e6a.png)
+
+#### Scores By School Size
+  - Now, when looking at the school size in comparison to the average scores. We can see a much better correlation to population and lower grade scores. As you can see below, as the population ranges for the schools get bigger, the average grades and % passing falls. This shows that with less students, there are smaller classroom sizes and therefore more students are able to get the 1 on 1 tutoring they might need, or that there are lot less distractions within a given classroom.
+
+![Scores_by_school_size](https://user-images.githubusercontent.com/69607218/133935999-f182fbc3-4bc7-426f-bb1e-a503d79a16fd.png)
+
+#### Scores By School Type
+  - This may come to no surprise to some. However, with our data, we can easily point out that the type of school can matter a lot on the academic education a student may receive. As we can see below, our data suggests that if you go to a Charter school, the likelihood that you will be passing both Math and Reading is significantly higher than if you were to go to a local District school. Now, this can be correlated with the School Size as well, since Charter schools are highly likely to be low populated schools in comparison to other District schools.
+
+![Scores_by_school_type](https://user-images.githubusercontent.com/69607218/133936182-50e4df5c-488e-45a6-8029-b478c6a77c82.png)
+
+## Summary
+The District Analysis has only slightly changed from replacing the Thomas High School 9th graders, math and reading scores. As stated previously, the difference that the 9th grade students is almost negligible because the 461 students only make up 1.177% of the total student population (39,170) within the district. However, since changing their scores, we can calculate small changes as stated below.
+  - Average Math Score Before Audit = 79 ---- Average Math Score After Audit = 78.9
+ 
+  - % Passing Math Before Audit = 75 ---- % Passing Math After Audit = 74.8
+
+  - % Passing Reading Before Audit = 86 ---- % Passing Reading After Audit = 85.7
+
+  - % Overall Passing Before Audit = 65 ---- % Overall Passing After Audit = 64.9
 
